@@ -37,7 +37,7 @@ function setup() {
   bk.scale = 3;
   //bk.velocityX = -5;
 
-  astro = createSprite(0, bk.y/2 + 130, 50, 50);
+  astro = createSprite(120, bk.y/2 + 130, 50, 50);
   astro.addImage(astrobk);
   astro.scale = 0.30;
   // astro.setCollider("rectangle", 0, 0, 150, 150, 0)
@@ -45,7 +45,7 @@ function setup() {
 
   stoneGroup = createGroup();
  
-  holdbar = createSprite(0, 300, 400, 200);
+  holdbar = createSprite(150, 300, 400, 200);
   holdbar.addImage(holdbarbk);
   holdbar.setCollider("rectangle", 0, 0, 200, 50, 0)
   //holdbar.debug = true;
@@ -66,18 +66,6 @@ function draw() {
 
   if (gameState === SET) {
     bk.velocityX = 0;
-
-    astro.velocityX = 3;
-
-    holdbar.velocityX = 3;
-  
-    if(astro.x > 150){
-      astro.velocityX = 0;
-    }
-  
-    if(holdbar.x > 120){
-      holdbar.velocityX = 0;
-    }
 
     text("Press space to start.", width/2 - 100, bk.y/2 + 100, fill("white"),textSize(25))
     
