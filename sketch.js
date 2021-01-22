@@ -141,7 +141,7 @@ function astroid() {
     stone.velocityX = -(8 + 3 * score / 100);
     
     stone.setCollider("rectangle",0,0,90,90,0);
-      stone.debug = true;
+      //stone.debug = true;
     
     stone.lifetime = width/-(8 + 3 * score / 100);
     
