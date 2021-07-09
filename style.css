@@ -1,7 +1,75 @@
-html, body {
-  margin: 0;
-  padding: 0;
+body {
+    background-image: url("https://i.pinimg.com/originals/3f/7c/2e/3f7c2e51d5f75beabec6e5803551dc80.gif");
+    background-size: 100% 325%;
 }
-canvas {
-  display: block;
-}
+
+a {text-decoration: none;}
+
+#myProgress {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  #myBar {
+    width: 1%;
+    height: 30px;
+    background-color: #04AA6D;
+  }
+
+  #btn {
+    background-color: #ffffff50;
+    border: solid white;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    visibility: hidden;
+    cursor: pointer;
+  }
+  
+  #btn:hover {background-color: white; color: black}
+
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px, sans-serif;
+    color: rgb(255, 255, 255);
+  }
+
+
+  h4 {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font: 20px, sans-serif;
+    color: rgb(255, 255, 255);
+  }
+
+  .btn2 {
+    background-color: #ffffff50;
+    border: solid white;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  .btn2:hover {background-color: white; color: black}
+
+  
+  .footer {
+    background-color: rgb(12, 22, 54);
+    font-weight: bold;
+    bottom: 0%;
+    width: 50%;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+  
+  }
