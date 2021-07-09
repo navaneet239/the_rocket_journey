@@ -1,0 +1,203 @@
+<!DOCTYPE html><html lang="en"><head>
+    <link rel="shortcut icon" href="Google-Noto-Emoji-Smileys-10101-alien.ico"/>
+    <title> the Alien Runner</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <script src="main.js"></script> 
+
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        /* Modal Header */
+        .modal-header {
+            padding: 2px 16px;
+            background-color: #5cb85c;
+            color: white;
+        }
+
+        /* Modal Body */
+        .modal-body {padding: 2px 16px;}
+
+        /* Modal Footer */
+        .modal-footer {
+            padding: 2px 16px;
+            background-color: #5cb85c;
+            color: white;
+            }
+        
+        /* The Modal (background) */
+        .modal {
+          display: none; /* Hidden by default */
+          position: fixed; /* Stay in place */
+          z-index: 1; /* Sit on top */
+          padding-top: 100px; /* Location of the box */
+          left: 0;
+          top: 0;
+          width: 100%; /* Full width */
+          height: 100%; /* Full height */
+          overflow: auto; /* Enable scroll if needed */
+          background-color: rgb(0,0,0); /* Fallback color */
+          background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+        
+        /* Modal Content */
+        .modal-content {
+          background-image: url("alienbk 1.png");
+          background-repeat: no-repeat;
+          margin: auto;
+          padding: 20px;
+          border: 1px solid #888;
+          width: 80%;
+        }
+        
+        /* The Close Button */
+        .close {
+          color: #aaaaaa;
+          float: right;
+          font-size: 28px;
+          font-weight: bold;
+        }
+        
+        .close:hover,
+        .close:focus {
+          color: #000;
+          text-decoration: none;
+          cursor: pointer;
+        }
+
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border-radius: 25px;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  float: right;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+        </style>
+
+
+
+</head>
+
+<body background="default-background.gif">
+    <center>
+        <br>
+        <br>
+        <br>
+        <img src="10101-alien-icon.png" alt="logo">
+        <br>
+        <h3 align="center">The Alien Runner</h3>
+    </center>
+<!-- Trigger/Open The Modal -->
+<center>
+<button id="myBtn"  class="btn2">Wanna get a basic Information tour? click here</button>
+</center>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+<!-- Modal content -->
+<div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h3 align= "center">Welcome To The Alien Runner</h3>
+    </div>
+    <div class="modal-body">
+    <center>
+      <p><font color="white">
+        <h3>Basic Information about the game</h3>
+        Alien runner game is one of the popular
+        'Infinite scroll game'. It is a type of game where you are the
+        alien who needs to collect stuffs to store in
+        your power pack and try to avoid from the
+        two main obstacles, 'the devil and the skull'.
+        The devil's main job is to loot all your stuffs
+        from the power pack and your total score but
+        the skull will just simply kill u off. You need
+        to visely play and try to collect as much as u
+        can and beat the score. There will be 6
+        levels where each level has its own
+        speciality. Play and enjoy!</font></p>
+    </center>
+    </div>
+    <div class="modal-footer">
+      <h3 align= "center">---NPJ---</h3>
+    </div>
+  </div>
+  
+  </div>
+
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <a href="info2.html" class="button"><span> <font size="3px">Lets go to the next </font></span></a>
+
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+</script>
+
+<div class="footer">
+  <img src="NPJ group of companies official logo (without background).png" width="90" height="55" alt="NPJ logo">
+</div>
+
+</body>
