@@ -1,0 +1,301 @@
+<!DOCTYPE html><html lang="en"><head>
+
+  <link rel="shortcut icon" href="https://iconarchive.com/download/i108305/google/noto-emoji-smileys/10101-alien.ico"/>
+    <title>Alien Runner Game home page</title>
+    <font color= "white">
+ 
+    <link rel="stylesheet" type="text/css" href="styleHp.css">
+    <meta charset="utf-8">
+
+    <div class="bg-image">
+      <div class="bg-text">
+        <h1 align= "CENTER"> <font Color= "white">👽 Alien runner game HomePage 👽</font> </h1>
+        <h3 align= "CENTER"> <font Color= "white"> --- Infinity and beyond --- </font> </h3>
+      </div>
+    </div>
+    <STYLE>
+
+    A {text-decoration: none;} 
+    
+    </STYLE>
+
+  </head>
+  <body background="https://i.pinimg.com/originals/3f/7c/2e/3f7c2e51d5f75beabec6e5803551dc80.gif" >
+    <script src="sketch.js"></script>
+
+    <style>
+      body {font-family: Arial, Helvetica, sans-serif;}
+      
+      /* The Modal (background) */
+      .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      }
+      
+      /* Modal Content */
+      .modal-content {
+        background-image: url("abstract-blue-technology-geometric-and-connection-system-electronic-circuit-background-vector.jpg");
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        border-radius: 15px;
+
+      }
+      
+      /* The Close Button */
+      .close {
+        color: #aaaaaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      
+      .close:hover,
+      .close:focus {
+        color:rgb(0, 0, 0);
+        text-decoration: none;
+        cursor: pointer;
+      }
+      </style>
+      
+      <center>
+      <!-- Trigger/Open The Modal -->
+      <button id="myBtn"> <font size="5">Click here for the Information </font></button>
+      
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+      
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p><font color= "white" face="Arial" size= "5">
+            <b>Game Information: </b>
+            <br>Alien runner game is one of the popular
+            'Infinite scroll game'. It is a type of game where you are the
+            alien who needs to collect stuffs to store in
+            your power pack and try to avoid from the
+            two main obstacles, 'the devil and the skull'.
+            The devil's main job is to loot all your stuffs
+            from the power pack and your total score but
+            the skull will just simply kill u off. You need
+            to visely play and try to collect as much as u
+            can and beat the score. There will be 6
+            levels where each level has its own
+            speciality. Play and enjoy!
+            <br>
+            <hr>
+ 
+            <b>Level Information: </b>
+            <br>
+            <i>Alien runner game level 1 :</i> Press space to jump from the devil
+            and the skull and obtain the coin to boost your coin power
+            pack. If you go to the devil, your score and coin power pack will
+            become zero but it you go to the skull, you are dead.
+            <br>
+            <br>
+            <i>Alien runner game level 2 :</i> Press the jump button to jump
+            from the devil and the skull and obtain the coins and the
+            dimond to boost your power pack. If you go to the devil, your
+            score and power pack will become zero but if you go to the
+            skull, you are dead.
+            <br>
+            <br>
+            <i>Alien runner game level 3 :</i> Choose your destination and then
+            start playing by pressing the jump button to jump from the devil
+            and the skull and obtain the coins and the gems to boost your
+            power pack. If you go to the devil, your score and power pack
+            will become zero but if you go to the skull, you are dead.
+            <br>
+            <br>
+            <i>Alien runner game level 4 :</i> Choose your destination and then
+            start playing by pressing the jump button to jump and obtain the
+            coins and the gems which boosts your power pack and then press
+            the duck button to duck from the devil and the skull. If
+            you go to the devil, your score and power pack will become
+            zero but if you go to the skull, you are dead.
+            <br>
+            <br>
+            <i>Alien runner game level 5 :</i> Press left and right button to
+            move left and right from the devil and the skull and obtain the
+            coin to boost your coin power pack. If you go to the devil, your
+            score and coin power pack will become zero but if you go to
+            the skull, you are dead.
+            <br> 
+            <br>
+            <i>Alien runner game level 6 : </i>Choose your destination and then
+            start playing by pressing the jump button to jump and obtain the
+            gems which boosts your power pack and then press the duck button
+            to duck from the devils and the skull. If you go to the devils, your
+            score and the respected power pack will become zero but if you go
+            to the skull, your life count decreases. Make sure to not let the life
+            count to 0, or else you are dead.</font></p>
+        </div>
+      <br>
+      </div>
+
+      
+
+      </center>
+      
+      <script>
+      // Get the modal
+      var modal = document.getElementById("myModal");
+      
+      // Get the button that opens the modal
+      var btn = document.getElementById("myBtn");
+      
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+      
+      // When the user clicks the button, open the modal 
+      btn.onclick = function() {
+        modal.style.display = "block";
+      }
+      
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+      
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+      </script>
+
+    <br>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <p> <b>👽 Alien runner game level 1 :</b> 
+        <a href ="https://navaneet239.github.io/NPJ_alienRunnerGame/"><font color= "lightBlue"> click here <img src="1.png" alt="1" width="30px" height="30px"></font></a></p>
+        <b>👽 Alien runner game level 2 :</b>
+        <a href ="https://navaneet239.github.io/alienRunnerGame2/"><font color= "lightBlue"> click here  <img src="2.png" alt="2" width="30px" height="30px"></font></a> </p>
+        <b>👽 Alien runner game level 3 :</b>
+        <a href ="https://navaneet239.github.io/alienRunnerGame3/"><font color= "lightBlue"> click here  <img src="3.png" alt="3" width="30px" height="30px"></font></a> </p>
+        <p><b>👽 Alien runner game level 4 :</b>
+        <a href ="https://navaneet239.github.io/alienRunnerGame4/"><font color= "lightBlue"> click here  <img src="4.png" alt="4" width="30px" height="30px"></font></a> </p>
+        <p><b>👽 Alien runner game level 5 :</b>
+        <a href ="https://navaneet239.github.io/AlienRunnerGame5/"><font color= "lightBlue"> click here  <img src="5.png" alt="5" width="30px" height="30px"></font></a> </p>
+        <p><b>👽 Alien runner game level 6 :</b>
+          <a href ="https://navaneet239.github.io/alienRunnerGame6/"><font color= "lightBlue"> click here <img src="5.png" alt="5" width="30px" height="30px"><img src="1.png" alt="1" width="30px" height="30px"></font></a> </p>
+
+    </div>
+    
+    <!-- Use any element to open the sidenav -->
+    <center>
+    <span onclick="openNav()"><button class="butn"><font face="Old English Text MT" size= "20">Click here to view the Levels</font></button></span>
+    </center>
+
+    <br>
+    <br>
+    <br>
+    <hr>
+    <h1 align= "CENTER"><b>Levels snapshots</b> </h1>   
+    <h4 align= "CENTER"><b>Click on any one of the Thumbnail to view the full view</b> </h4>   
+
+    <br>
+
+    <center>
+
+    <!-- Container for the image gallery -->
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+      <img src="level 1.png" style="width:75%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="level 2.png" style="width:75%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="level 3.png" style="width:75%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="level 4.png" style="width:75%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="level 5.png" style="width:75%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="level 6.png" style="width:75%">
+  </div>
+
+
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</center>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="level 1.png" style="width:100%" onclick="currentSlide(1)" alt="level 1">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="level 2.png" style="width:100%"  onclick="currentSlide(2)" alt="level 2">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="level 3.png" style="width:100%" onclick="currentSlide(3)" alt="level 3 ">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="level 4.png" style="width:100%" onclick="currentSlide(4)" alt="level 4">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="level 5.png" style="width:100%" onclick="currentSlide(5)" alt="level 5">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="level 6.png" style="width:100%" onclick="currentSlide(6)" alt="level 6">
+    </div>
+  </div>
+</div>
+<hr>
+
+    <h1 align= "CENTER"><font color= "red">❗ Remember ❗</font> </h1>
+
+    <h4 align= "CENTER"><font color= "red">❗ These games should be played in a Pc/desktop due to the compatibility with it. The game won't work in a phone or any tab.❗</font> </h4>
+  
+    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+    <div id="main">
+      ...
+    </div>  
+  
+
+  <div class="footer">
+    <img src="NPJ group of companies official logo (without background).png" width="90" height="55" alt="NPJ logo">
+  </div>
+
+
+
+</body></html>
